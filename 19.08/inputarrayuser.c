@@ -1,22 +1,30 @@
 #include<stdio.h>
-
+/*
 int main()
 {
-    int row, column;
+    int len,indx;
+    printf("Please enter the array length: ");
+    scanf("%d",&len);
+    len = len-1;
+    int arr[len];
 
-    printf("Please print the row count : ");
-    scanf("%d",&row);
-    printf("\n\nPlease print the column count : ");
-    scanf("%d",&column);
+    for(int i=0;i<=len;i+=1)
+    {
+        printf("\nSlot num %d: \n", i);
+        scanf("%d",&arr[i]);
+    }
 
-    int arr[row][column];
+    printf("The digits in the array: \n");
+    for(int i=0;i<=len;i++)
+    {
+        printf("%d, ", arr[i]);
+    }
 
-    for
     return 0;
 }
+*/
 
 
-/*
 #include <stdio.h>
 
 int main() {
@@ -44,4 +52,4 @@ int main() {
     return 0;
 }
 
-*/
+
